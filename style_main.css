@@ -1,0 +1,93 @@
+
+body{
+    margin:0;
+    padding:0;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+
+}
+.box{
+    width:350px;
+    background: rgba(0,0,0,0.3);
+    padding:40px;
+    text-align: center;
+    margin:auto;
+    margin-top:15%;
+    color: darkturquoise;
+    font-family: cursive;
+}
+.box-img{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    
+        
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.menu{
+    width:350px;
+    height:auto;
+    background color:aqua;
+    position:absolute;
+    top:20%;
+    left:0;
+}
+.menu a{
+    text-decoration: none;
+    font-size:28px;
+    font-family:verdana;
+    font-weight:bold;
+    width:80%;
+    height:60px;
+    margin:5px 0;
+    float:left;
+    display:inline-block;
+    background-color: darkturquoise;
+    color:white;
+    line-height: 60px;
+    text-align:center;
+    }
+a.active{
+    background-color: white;
+    color:darkturquoise;
+}
+a.active, .menu a:hover{
+     background-color: white;
+     color:darkturquoise;
+     width:100%;
+}
+.p{
+  font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: coral;
+    width:500px;
+    background: rgba(0,0,0,0.5);
+    padding:40px;
+    text-align: center;
+    margin:auto;
+    margin-top:15%;
+}
+
+.con-img{
+
+    width:200px;
+    height:200px;
+}
+.con{
+      
+    padding:40px;
+    text-align: center;
+    margin:auto;
+    margin-top:15%;
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
